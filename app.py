@@ -6,7 +6,7 @@ app=Flask(__name__)
 @app.route("/",methods=["GET","POST"])
 
 def home():
-    return "Starting mL project"
+    return "CI CD Pipeline is being created"
 
 if __name__=="__main__":
     app.run(debug=True)
