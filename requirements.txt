@@ -6,4 +6,5 @@ numpy
 matplotlib
 seaborn
 ipykernel
+pyYAML
 -e .
