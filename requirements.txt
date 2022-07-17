@@ -8,4 +8,5 @@ seaborn
 ipykernel
 pyYAML
 evidently
+dill
 -e .
