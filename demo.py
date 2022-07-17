@@ -1,11 +1,14 @@
+from housing.exception import housing_exception
 from housing.pipeline.pipeline import Pipeline
-
+from housing.config.configuration import configuration
+import os,sys
 def main():
     try:
-        pipe=Pipeline()
-        pipe.run_pipeline()
+        pipeline=Pipeline()
+        pipeline.run_pipeline()
     except Exception as e:
-        print(e)
+        raise housing_exception(e,sys) from e
+
 
 if __name__=="__main__":
     main()   

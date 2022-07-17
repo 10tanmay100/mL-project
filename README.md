@@ -24,3 +24,7 @@ docker images
 ```
 docker run -p 5000:5000 -e PORT=5000 7c60094d6798
 ```
+
+
+# data drift
+when we data stats will be changed then that called data drift

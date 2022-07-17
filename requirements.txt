@@ -7,4 +7,5 @@ matplotlib
 seaborn
 ipykernel
 pyYAML
+evidently
 -e .
