@@ -10,6 +10,8 @@ def main():
         raise housing_exception(e,sys) from e
     # data_transformation_info=configuration().get_data_transformation_config()
     # print(data_transformation_info)
+    # model_trainer_info=configuration().get_model_trainer_config()
+    # print(model_trainer_info)
 
 
 if __name__=="__main__":

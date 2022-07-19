@@ -19,8 +19,7 @@ DataTransformationConfig=namedtuple("DataTransformationConfig",
 
 
 #ModelTrainerConfig
-ModelTrainerConfig=namedtuple("ModelTrainerConfig",
-["trained_model_file_path","base_accuracy"])
+ModelTrainerConfig = namedtuple("ModelTrainerConfig", ["trained_model_file_path","base_accuracy","model_config_file_path"])
 
 #ModelPusherConfig
 ModelPusherConfig=namedtuple("ModelPusherConfig",["export_dir_path"])
